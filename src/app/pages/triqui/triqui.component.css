@@ -1,0 +1,9 @@
+input{
+	height: 30vh;
+	text-align: center;
+	font-size: 100px !important;
+}
+.input-ok, .input-ok:focus {
+    background: #d1e7dd;
+    color: green;
+}
