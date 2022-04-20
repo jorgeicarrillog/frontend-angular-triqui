@@ -1,4 +1,6 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
+import * as uuid from 'uuid';
+
 
 const caseOK = [
     [1,2,3],
@@ -10,6 +12,8 @@ const caseOK = [
     [1,5,9],
     [3,5,7]
   ];
+  const playerID = uuid.v4();
+  let symbol;
 
 @Component({
   selector: 'app-triqui',
